@@ -14,7 +14,8 @@
 
 ### Path Planning
 
-![Screenshot 2022-11-13 at 2.08.53 PM.png](%E1%84%89%E1%85%B5%E1%86%AF%E1%84%8B%E1%85%AC%20%E1%84%92%E1%85%AA%E1%86%AB%E1%84%80%E1%85%A7%E1%86%BC%E1%84%8B%E1%85%B3%E1%86%AF%20%E1%84%8B%E1%85%B1%E1%84%92%E1%85%A1%E1%86%AB%20SLAM%20%E1%84%86%E1%85%B5%E1%86%BE%20Path%20Planning%20f27a9fcb14274713939a75f7e556ce16/Screenshot_2022-11-13_at_2.08.53_PM.png)
+<img src="%E1%84%89%E1%85%B5%E1%86%AF%E1%84%8B%E1%85%AC%20%E1%84%92%E1%85%AA%E1%86%AB%E1%84%80%E1%85%A7%E1%86%BC%E1%84%8B%E1%85%B3%E1%86%AF%20%E1%84%8B%E1%85%B1%E1%84%92%E1%85%A1%E1%86%AB%20SLAM%20%E1%84%86%E1%85%B5%E1%86%BE%20Path%20Planning%20f27a9fcb14274713939a75f7e556ce16/Screenshot_2022-11-13_at_2.08.53_PM.png"  width="600" height="450"/>
+
 
 ## 요약
 
@@ -28,7 +29,7 @@ Monocular 카메라를 이용한 ORB-SLAM2 의 모든 단계에 GPS 데이터를
 
 저희가 머물렀던 퍼듀는 인디애나 주에 있는 대학으로, 주변에는 농장이 많습니다. 대부분의 교수님들도 농장을 하나씩 가지고 계셔서 작물 재배와 농사 관련 기술에 대한 관심도가 높습니다. 
 
-![인디애나 주의 농장](%E1%84%89%E1%85%B5%E1%86%AF%E1%84%8B%E1%85%AC%20%E1%84%92%E1%85%AA%E1%86%AB%E1%84%80%E1%85%A7%E1%86%BC%E1%84%8B%E1%85%B3%E1%86%AF%20%E1%84%8B%E1%85%B1%E1%84%92%E1%85%A1%E1%86%AB%20SLAM%20%E1%84%86%E1%85%B5%E1%86%BE%20Path%20Planning%20f27a9fcb14274713939a75f7e556ce16/IMG_6042.heic)
+<img width="283" alt="Screenshot 2022-11-13 at 3 00 18 PM" src="https://user-images.githubusercontent.com/52185595/201508149-f99eb777-49cc-400e-84ab-fc1f0fe01a60.png">
 
 인디애나 주의 농장
 
@@ -40,9 +41,11 @@ Monocular 카메라를 이용한 ORB-SLAM2 의 모든 단계에 GPS 데이터를
 
 실내 환경에서는 내부 구성을 자세하게 Mapping 하는 SLAM 기술을 사용합니다. 
 
-![GPS 위성 지도](%E1%84%89%E1%85%B5%E1%86%AF%E1%84%8B%E1%85%AC%20%E1%84%92%E1%85%AA%E1%86%AB%E1%84%80%E1%85%A7%E1%86%BC%E1%84%8B%E1%85%B3%E1%86%AF%20%E1%84%8B%E1%85%B1%E1%84%92%E1%85%A1%E1%86%AB%20SLAM%20%E1%84%86%E1%85%B5%E1%86%BE%20Path%20Planning%20f27a9fcb14274713939a75f7e556ce16/Screenshot_2022-11-13_at_12.12.31_PM.png)
+<img width="300" alt="Screenshot 2022-11-13 at 3 01 53 PM" src="https://user-images.githubusercontent.com/52185595/201508193-6d0f023d-486c-4c80-9ee9-c5a9f489de74.png">
+
 
 GPS 위성 지도
+
 
 ![ORB-SLAM 의 결과물 Point Cloud](%E1%84%89%E1%85%B5%E1%86%AF%E1%84%8B%E1%85%AC%20%E1%84%92%E1%85%AA%E1%86%AB%E1%84%80%E1%85%A7%E1%86%BC%E1%84%8B%E1%85%B3%E1%86%AF%20%E1%84%8B%E1%85%B1%E1%84%92%E1%85%A1%E1%86%AB%20SLAM%20%E1%84%86%E1%85%B5%E1%86%BE%20Path%20Planning%20f27a9fcb14274713939a75f7e556ce16/img7.jpg)
 
@@ -83,6 +86,9 @@ ORB-SLAM 의 결과물 Point Cloud
 
 ### SLAM
 
+<img width="391" alt="Screenshot 2022-11-13 at 12 56 52 PM" src="https://user-images.githubusercontent.com/52185595/201508261-72a5168e-2b1a-4791-b583-41c574d1d722.png">
+<img width="393" alt="Screenshot 2022-11-13 at 12 57 31 PM" src="https://user-images.githubusercontent.com/52185595/201508264-58273c8d-5db5-4c28-8593-59a52075fe0c.png">
+
 Table 1 에서, 기존의 ORB SLAM 보다 저희의 GPS Mobile SLAM 의 경우에 추출되는 Keyframe 과 Map Point 의 숫자가 현격하게 적은 것을 볼 수 있습니다. 
 
 ### 최적화 단계
@@ -105,9 +111,9 @@ Table 1 에서, 기존의 ORB SLAM 보다 저희의 GPS Mobile SLAM 의 경우�
 
 기존의 BIT* 알고리즘은 회색 영역 (불안정한 길) 상관 없이 최단 길이만 고려해 길을 찾지만, 개선된 알고리즘의 경우 흰색 영역 (안정한 길) 을 중심으로 길을 찾아 가는 것을 볼 수 있습니다. 
 
-![Screenshot 2022-11-13 at 1.25.04 PM.png](%E1%84%89%E1%85%B5%E1%86%AF%E1%84%8B%E1%85%AC%20%E1%84%92%E1%85%AA%E1%86%AB%E1%84%80%E1%85%A7%E1%86%BC%E1%84%8B%E1%85%B3%E1%86%AF%20%E1%84%8B%E1%85%B1%E1%84%92%E1%85%A1%E1%86%AB%20SLAM%20%E1%84%86%E1%85%B5%E1%86%BE%20Path%20Planning%20f27a9fcb14274713939a75f7e556ce16/Screenshot_2022-11-13_at_1.25.04_PM.png)
 
-![Screenshot 2022-11-13 at 1.25.08 PM.png](%E1%84%89%E1%85%B5%E1%86%AF%E1%84%8B%E1%85%AC%20%E1%84%92%E1%85%AA%E1%86%AB%E1%84%80%E1%85%A7%E1%86%BC%E1%84%8B%E1%85%B3%E1%86%AF%20%E1%84%8B%E1%85%B1%E1%84%92%E1%85%A1%E1%86%AB%20SLAM%20%E1%84%86%E1%85%B5%E1%86%BE%20Path%20Planning%20f27a9fcb14274713939a75f7e556ce16/Screenshot_2022-11-13_at_1.25.08_PM.png)
+<img width="416" alt="Screenshot 2022-11-13 at 1 25 08 PM" src="https://user-images.githubusercontent.com/52185595/201508275-d8b5cf96-8deb-4510-a3b9-94a9d2c8f5f9.png">
+<img width="530" alt="Screenshot 2022-11-13 at 1 25 04 PM" src="https://user-images.githubusercontent.com/52185595/201508277-fc59c870-2b15-4559-952d-77e3843f81f4.png">
 
 주변 장애물과의 거리도 기존 알고리즘보다 먼 것으로 측정됩니다. 
 
