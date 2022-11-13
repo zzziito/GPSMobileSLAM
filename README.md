@@ -121,6 +121,8 @@ Table 1 에서, 기존의 ORB SLAM 보다 저희의 GPS Mobile SLAM 의 경우�
 
 ## 개발자들 👥
 
+![IMG_0504](https://user-images.githubusercontent.com/52185595/201508998-4a209b03-0420-4616-b48e-6563fb99a18c.jpg)
+
 허성일 `tjddlf101@hufs.ac.kr`
 
 문주은 `cindy4741@khu.ac.kr`
@@ -128,3 +130,5 @@ Table 1 에서, 기존의 ORB SLAM 보다 저희의 GPS Mobile SLAM 의 경우�
 최지웅 `jiwung22@gmail.com`
 
 박지원 `overflow21@khu.ac.kr`
+
+
