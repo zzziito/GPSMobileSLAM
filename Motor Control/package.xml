@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package>
+  <name>roboclaw_driver</name>
+  <version>0.5.0</version>
+  <description>The roboclaw_driver package</description>
+  <author email="girts.linde@gmail.com">Girts Linde</author>
+  <maintainer email="girts.linde@gmail.com">Girts Linde</maintainer>
+  <license>BSD</license>
+
+  <!-- Url tags are optional, but mutiple are allowed, one per tag -->
+  <!-- Optional attribute type can be: website, bugtracker, or repository -->
+  <!-- Example: -->
+  <!-- <url type="website">http://wiki.ros.org/roboclaw_driver</url> -->
+
+  <buildtool_depend>catkin</buildtool_depend>
+  
+  <run_depend>geometry_msgs</run_depend>
+  <run_depend>nav_msgs</run_depend>
+  <run_depend>roscpp</run_depend>
+  <run_depend>rospy</run_depend>
+  <run_depend>std_msgs</run_depend>
+  <run_depend>tf</run_depend>
+</package>

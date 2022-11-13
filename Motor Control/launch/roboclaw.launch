@@ -1,0 +1,12 @@
+<launch>
+  <node name="roboclaw_node" pkg="roboclaw_driver" type="roboclaw_node.py" output="screen">
+    <param name="dev1" value="/dev/ttyACM1" />
+    <param name="dev2" value="/dev/ttyACM0" />
+    <param name="qp_per_meter" value="7418.7" />
+    <param name="base_width" value="0.29" />
+    <param name="p" value="4.0" />
+    <param name="i" value="2.0" />
+    <param name="d" value="1.0" />
+    <param name="max_qpps" value="10000" />
+  </node>
+</launch>
