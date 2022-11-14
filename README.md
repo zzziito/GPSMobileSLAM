@@ -115,11 +115,13 @@ Table 1 에서, 기존의 ORB SLAM 보다 저희의 GPS Mobile SLAM 의 경우�
 따라서 GPS 데이터를 이용해 차량의 이동 거리를 계산하여 만약 이동 거리가 유의미하지 않다면 Tracking 과정을 수행하지 않도록 하였습니다. 
 또한 무의미한 KeyFrame 은 오히려 전체 지도의 정확도를 떨어뜨리기 때문에, KeyFrame 후보군 (Candidate KeyFrame) 과 기존 KeyFrame 사이의 거리가 일정 거리 이하일 때는 Map 에 추가하지 않도록 개발하였습니다. 
 이를 통해 지도의 정확성을 높이고 연산량을 줄였습니다.
+
 2. **Covisibility Graph 제작 과정에서의 정확도 향상**
 
 새로운 KeyFrame 이 추가될 때, 동일한 위치의 지도를 공유하는 다른 KeyFrame 들의 Covisibility Graph 가 업데이트됩니다. 
 이 그래프를 이용하여 모든 KeyFrame 을 비교하지 않고도 시스템은 차량의 자세를 추정할 수 있습니다. 이 그래프를 만들 때, KeyFrame 들의 Correlation 을 추정하기 위해 화면의 특징점들이 이용됩니다. 
 하지만 실외 환경에서는 (특히 숲 지형에서) 실내보다 특징점을 추출하기 어렵기 때문에, 이 과정에서 GPS 데이터를 추가하여 KeyFrame 간의 거리를 비교하는 방식으로 알고리즘을 개선했습니다.
+
 3. **Relocalization 정확도 향상**
 
 차량이 Tracking 과정을 정상적으로 실행하지 못 했다면, 이전의 데이터를 이용해서 현재 위치를 추정해야 합니다. 
