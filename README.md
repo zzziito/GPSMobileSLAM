@@ -10,6 +10,7 @@
 
 ### GPS-Mobile SLAM
 
+<img width="1342" alt="Screenshot 2022-11-18 at 8 35 31 PM" src="https://user-images.githubusercontent.com/52185595/202696546-9d7a9dca-521f-4655-96ab-c5f99b1c348e.png">
 [https://youtu.be/2mR5yEIUdMo](https://youtu.be/2mR5yEIUdMo)
 
 ### 데모 차량 제작
