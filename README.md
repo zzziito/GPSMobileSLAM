@@ -150,7 +150,7 @@ Table 1 에서, 기존의 ORB SLAM 보다 저희의 GPS Mobile SLAM 의 경우�
 
 ## 개발자들 👥
 
-<img width="300" alt="Screenshot 2022-11-13 at 12 56 52 PM" src="https://user-images.githubusercontent.com/52185595/201508998-4a209b03-0420-4616-b48e-6563fb99a18c.jpg">
+<img width="400" alt="Screenshot 2022-11-13 at 12 56 52 PM" src="https://user-images.githubusercontent.com/52185595/201508998-4a209b03-0420-4616-b48e-6563fb99a18c.jpg">
 
 허성일 `tjddlf101@hufs.ac.kr`
 
