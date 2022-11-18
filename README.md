@@ -15,7 +15,7 @@
 
 ### 데모 차량 제작
 
-![IMG_1034](https://user-images.githubusercontent.com/52185595/202696328-e9084093-20ae-4ef0-aaf7-87786526f599.jpg)
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/52185595/202697340-7128bf4b-9954-4d7c-93c7-afd1b425d2e2.gif)
 
 
 ### Path Planning
