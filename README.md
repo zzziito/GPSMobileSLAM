@@ -12,6 +12,11 @@
 
 [https://youtu.be/2mR5yEIUdMo](https://youtu.be/2mR5yEIUdMo)
 
+### 데모 차량 제작
+
+![IMG_1034](https://user-images.githubusercontent.com/52185595/202696328-e9084093-20ae-4ef0-aaf7-87786526f599.jpg)
+
+
 ### Path Planning
 
 <img src="%E1%84%89%E1%85%B5%E1%86%AF%E1%84%8B%E1%85%AC%20%E1%84%92%E1%85%AA%E1%86%AB%E1%84%80%E1%85%A7%E1%86%BC%E1%84%8B%E1%85%B3%E1%86%AF%20%E1%84%8B%E1%85%B1%E1%84%92%E1%85%A1%E1%86%AB%20SLAM%20%E1%84%86%E1%85%B5%E1%86%BE%20Path%20Planning%20f27a9fcb14274713939a75f7e556ce16/Screenshot_2022-11-13_at_2.08.53_PM.png"  width="600" height="450"/>
