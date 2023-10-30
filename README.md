@@ -4,7 +4,7 @@
 
 미국 퍼듀대학교에서 4명의 학생이 4개월간 진행했습니다😀
 
-본 내용을 담은 [논문](https://drive.google.com/file/d/1XoPvBtw9vOMMglg9Vg_Dp4HWNM7q4Qec/view?usp=sharing)이 2022 IEEE IRC CHARMS 워크샵의 Regular Paper (8 pages) 로 승인되었습니다. 
+본 내용을 담은 [논문](https://drive.google.com/file/d/1XoPvBtw9vOMMglg9Vg_Dp4HWNM7q4Qec/view?usp=sharing)이 2022 IEEE IRC CHARMS 워크샵의 Regular Paper (6 pages) 로 승인되었습니다. 
 
 ## 결과 동영상
 
